@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    align-items: stretch;
+    padding: 0 1rem;
+    background-color: black;
+    color: white;
+}
+footer {
+    text-align: center;
+}
