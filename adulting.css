@@ -5,11 +5,37 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
+    height: 12vh;
+    width: 100vw;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     padding: 0 1rem;
     background-color: black;
     color: white;
+}
+h1 {
+    flex: 2;
+    justify-self: flex-start;
+}
+nav {
+    height: inherit;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu-link {
+    padding: 0 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.menu-link:link,
+.menu-link:visited {
+    color: white;
+}
+.menu-link:hover {
+    cursor: pointer;
+    background-color: rgb(65, 65, 65);
 }
 footer {
     text-align: center;
