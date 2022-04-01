@@ -20,19 +20,22 @@ h1 {
 nav {
     height: inherit;
     flex: 1;
-    justify-self: flex-end;
-}
-.menu {
-    height: inherit;
-    margin: 0;
-    padding-right: 1rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.menu-item {
-    list-style-type: none;
+.menu-link {
     padding: 0 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.menu-link:link,
+.menu-link:visited {
+    color: white;
+}
+.menu-link:hover {
+    cursor: pointer;
+    background-color: rgb(65, 65, 65);
 }
 footer {
     text-align: center;
