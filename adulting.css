@@ -1,5 +1,6 @@
 :root {
     --header-color: black;
+    --article-background-color: rgb(89, 137, 89);
 }
 body {
     margin: 0;
