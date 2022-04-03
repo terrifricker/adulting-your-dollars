@@ -1,3 +1,7 @@
+:root {
+    --header-color: black;
+    --article-background-color: rgb(89, 137, 89);
+}
 body {
     margin: 0;
     padding: 0;
@@ -10,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0 1rem;
-    background-color: black;
+    background-color: var(--header-color);
     color: white;
 }
 h1 {
